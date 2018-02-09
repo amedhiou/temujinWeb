@@ -1,0 +1,356 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+#myBtn {
+
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  padding:0px;
+  background:#fff;
+}
+
+#myBtn:hover {
+}
+	.logo{
+		padding:0px;
+		height:665px;
+		position:absolute;
+		top:425px;
+		left:185px;
+	}
+	.heading{
+		text-align:right;
+		margin:0px;
+		font-weight:bold;
+	}
+	.foodImg
+	{
+		padding-left:3px;
+		padding-right:3px;
+	}
+	.foodImgLeft{
+		padding-left:0px;
+		padding-right:3px;
+	}
+	.foodImgRight
+	{
+		padding-left:3px;
+		padding-right:0px;
+	}
+	.foodSmallImg{
+		padding-left:0px;
+		padding-right:4px;
+	}
+	.imgDiv{
+		padding:0px;
+		margin-top:6px;
+	}
+	.mainCoverDiv{
+		padding:0px;height:665px;
+	}
+	.mainCoverImg{
+		width:100%;
+		height:665px;
+	}
+	.logo{
+		padding:0px;
+		height:665px;
+		position:absolute;
+		top:425px;
+		left:225px;
+	}
+	.logoText{
+		color:#fff;
+		position:absolute;
+		top:170px;
+		left:16px;
+		width:100%;
+		font-size:26px;
+	}
+	.logoImg{
+		height:250px;
+	}
+@media screen and (max-width: 800px) and (min-width: 500px) {
+	
+	.heading{
+		text-align:center;
+		margin-bottom:20px;
+		font-weight:bold;
+	}
+	.mainCoverDiv{
+		padding:0px;height:465px;
+	}
+	.mainCoverImg{
+		width:100%;
+		height:465px;
+	}
+	.logo{
+		padding:0px;
+		height:665px;
+		position:absolute;
+		top:245px;
+		left:50px;
+	}
+	.logoText{
+		color:#fff;
+		position:absolute;
+		top:130px;
+		left:16px;
+		width:100%;
+		font-size:20px;
+	}
+	.logoImg{
+		height:200px;
+	}
+	.foodImg
+	{
+		margin-bottom:3px !important;
+		padding:0px;
+		
+	}
+	.foodImgLeft{
+		margin-bottom:3px !important;
+		padding:0px;
+	}
+	.foodImgRight
+	{
+		margin-bottom:3px !important;
+		padding:0px;
+	}
+	.foodSmallImg{
+		margin-bottom:3px !important;
+		padding:0px;
+	}
+}
+@media screen and (max-width: 500px) and (min-width: 200px) {
+	
+	.heading{
+		text-align:left;
+		margin:0px;
+		font-weight:bold;
+	}
+	.contact-form{
+		padding:0px;
+	}
+	.foodImg
+	{
+		margin-bottom:3px !important;
+		padding:0px;
+		
+	}
+	.foodImgLeft{
+		margin-bottom:3px !important;
+		padding:0px;
+	}
+	.foodImgRight
+	{
+		margin-bottom:3px !important;
+		padding:0px;
+	}
+	.foodSmallImg{
+		margin-bottom:3px !important;
+		padding:0px;
+	}
+	.mainCoverDiv{
+		padding:0px;
+		height:auto;
+	}
+	.mainCoverImg{
+		width:100%;
+		height:auto;
+	}
+	.logo{
+		padding:0px;
+		height:665px;
+		position:absolute;
+		top:90px;
+		left:20px;
+	}
+	.logoText{
+		color:#fff;
+		position:absolute;
+		top:70px;
+		left:16px;
+		width:100%;
+		font-size:13px;
+	}
+	.logoImg{
+		height:100px;
+	}
+}
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="topArrow.png" height="50"/></button>
+<div class="col-sm-12 mainCoverDiv">
+	<img class="img-responsive mainCoverImg" src="Dish5.png"/>
+</div>
+<div style="" class="logo">
+	<img class="img-responsive logoImg" src="Logo_WhiteOnTransparent.png"/>
+	<h4 class="logoText">A culinary experience</h4>
+</div>
+<div class="col-sm-12" style="background-color:#fff;padding:50px 0px 0px 0px;margin-bottom:50px;">
+	<div class="col-sm-10 col-sm-offset-1" style="margin-top:50px;" >
+		<div class="col-sm-4" >
+			<h3 style="" class="heading">Who we are</h3>
+		</div>
+		<div class="col-sm-8" >
+			<p style="font-size:20px;">A short summation of what Temujin is, why you are different, why people should pay attention to you. any specialities and other info that you think is worth mentioning.</p>
+			<div style="background:#000;height:3px;width:100px;margin-top:50px;"></div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-12" style="padding:0px;">
+	<div class="col-sm-4 foodImgLeft">
+		<img class="img-responsive" src="Dish5.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-4 foodImg">
+		<img class="img-responsive" src="Dish4.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-4 foodImgRight">
+		<img class="img-responsive" src="Dish3.png" style="width:100%;"/>
+	</div>
+</div>
+<div class="col-sm-12 imgDiv" >
+	<div class="col-sm-8 foodImgLeft">
+		<img class="img-responsive" src="Dish2.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-4 foodImgRight">
+		<div class="col-sm-12" style="padding:0px;">
+			<img class="img-responsive" src="Dish5.png" style="width:100%;"/>
+		</div>
+		<div class="col-sm-12 imgDiv">
+			<img class="img-responsive" src="Dish5.png" style="width:100%;"/>
+		</div>
+	</div>
+</div>
+<div class="col-sm-12 imgDiv">
+	<div class="col-sm-4 foodImgLeft">
+		<img class="img-responsive" src="Dish5.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-4 foodImg">
+		<img class="img-responsive" src="Dish3.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-4 foodImgRight">
+		<img class="img-responsive" src="Dish4.png" style="width:100%;"/>
+	</div>
+</div>
+<div class="col-sm-12 imgDiv">
+	<div class="col-sm-6 foodImgLeft">
+		<img class="img-responsive" src="Ben3.jpg" style="width:100%;"/>
+	</div>
+	<div class="col-sm-6 foodImgRight">
+		<img class="img-responsive" src="Ed3.jpg" style="width:100%;"/>
+	</div>
+</div>
+<div class="col-sm-12" style="background-color:#fff;padding:50px 0px 0px 0px;">
+	<div class="col-sm-8 col-sm-offset-2" >
+		<div class="col-sm-4" >
+			<h3 class="heading">Ben & Amed</h3>
+		</div>
+		<div class="col-sm-8" >
+			<p style="font-size:20px;">Convince people why you in particular will give them the best dining experience and the customer confidence they are in good hands. Last chance to get customers to come and fill out the form below.</p>
+		<div style="background:#000;height:3px;width:100px;margin-top:50px;"></div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-12" style="background-color:#fff;margin-bottom:50px;" >
+	<div class="col-sm-8 col-sm-offset-2 contact-form">
+		<div class="col-sm-4" >
+			</div>
+		<div class="col-sm-8 contact-form">
+			<h3>Contact Form</h3>
+			<p>Fields marked with an <span style="color:red;">*</span> are required</p>
+			<div class="form-group">
+				<label style="font-weight:bold;">Name <span style="color:red;">*</span></label>
+				<input type="text" class="form-control"  />
+			</div>
+			<div class="form-group">
+				<label style="font-weight:bold;">Email <span style="color:red;">*</span></label>
+				<input type="text" class="form-control"  />
+			</div>
+			<div class="form-group">
+				<label style="font-weight:bold;">Message <span style="color:red;">*</span></label>
+				<textarea class="form-control"  style="height:150px;"></textarea>
+			</div>
+			<div class="form-group">
+				<label style="font-weight:bold;">What is thirtheen minus 6? <span style="color:red;">*</span></label>
+				<input type="text" class="form-control"  />
+			</div>
+			<div class="form-group">
+				<input type="submit" class="btn btn-primary" style="background:#000;border-color:#000;" value="Send" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-12" style="padding:0px;">
+	<div class="col-sm-2 foodSmallImg">
+		<img class="img-responsive" src="Dish5.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-2 foodSmallImg">
+		<img class="img-responsive" src="Dish9.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-2 foodSmallImg">
+		<img class="img-responsive" src="Dish2.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-2 foodSmallImg">
+		<img class="img-responsive" src="Dish3.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-2 foodSmallImg">
+		<img class="img-responsive" src="Dish4.png" style="width:100%;"/>
+	</div>
+	<div class="col-sm-2 foodSmallImg">
+		<img class="img-responsive" src="Dish1.png" style="width:100%;"/>
+	</div>
+</div>
+
+
+<div class="col-sm-12" style="background-color:#fff;height:250px;padding:50px 0px 0px 0px;">
+	<div class="col-sm-8 col-sm-offset-2"  style="margin-top:50px;">
+		<div class="col-md-4 col-sm-6" >
+			<div class="col-sm-12" >
+			<h3 style="margin:0px;font-weight:bold;margin-bottom:30px;">Follow us</h3>
+				<i style="margin-right:4px;" class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+				<i style="margin-right:2px;" class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="col-sm-8" >
+		</div>
+	</div>
+</div>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
